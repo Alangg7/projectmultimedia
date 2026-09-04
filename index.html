@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- awal link boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- akhir link boostrap  -->
+
+    <!-- Awal link css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- akhir link css -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Awal Header -->
+    <section id="beranda">
+      <nav
+        class="navbar navbar-expand-lg bg-secondary navbar-dark nav-underline sticky-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Go-Web</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <a class="nav-link me-5" href="#beranda">Beranda</a>
+              <a class="nav-link me-5" href="#tentang">Tentang</a>
+              <a class="nav-link me-5" href="#blog">Blog</a>
+              <a class="nav-link me-5" href="#materi">Materi</a>
+              <a class="nav-link me-5" href="#team">Team</a>
+              <a class="nav-link me-5" href="#kontak">Kontak</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Akhir Header -->
+
+    <!-- Awal Banner -->
+    <section>
+      <div
+        id="carouselExample"
+        class="carousel slide carousel-fade mb-5"
+        data-bs-interval="3000"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner-1 align-items-center d-flex">
+              <div class="container text-center text-white">
+                <h1>
+                  Dapatkan pemahaman <span>lebih cepat</span><br />
+                  dan <span>lebih baik</span> bersama kami
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-2 align-items-center d-flex">
+              <div class="container text-center text-white">
+                <h1>
+                  Dapatkan pemahaman <span>lebih cepat</span><br />
+                  dan <span>lebih baik</span> bersama kami
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-3 align-items-center d-flex">
+              <div class="container text-center text-white">
+                <h1>
+                  Dapatkan pemahaman <span>lebih cepat</span><br />
+                  dan <span>lebih baik</span> bersama kami
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Akhir banner -->
+
+    <!-- Awal tentang -->
+    <section id="tentang">
+      <div class="container p-5">
+        <div class="row justify-content-center">
+          <h2 class="text-center" id="about">Tentang</h2>
+          <div class="col-6 mt-5">
+            <p align="justify">
+              Website Go-Web dirancang untuk memberikan bantuan pengetahuan
+              kepada mahasiswa yang mengambil mata kuliah Pengembangan Aplikasi
+              Web, yang masih tidak tahu tentang web atau belum mengerti sama
+              sekali apa itu website. Tujuan utama pembuatan website ini adalah
+              membantu mahasiswa memahami tentang mata kuliah Pengembangan
+              Aplikasi Web, dan manfaat belajar tentang pembuatan web. Dengan
+              menyediakan bebrapa penjelasan dan video terkait mata kuliah
+              Pengembangan Aplikasi Web dan website ini juga bertujuan
+              memberikan gambaran pembuatan web. Sebagai panduan, diharapkan
+              website ini diharapkan dapat membantu mahasiswa yang mengambil
+              mata kuliah Pengembangan Aplikasi Bergerak dalam pembelajaran
+              perkuliahan tanpa ada nya kesulitan dan membuat mahasiswa menjadi
+              semangat untuk terus. belajar tentang web
+            </p>
+          </div>
+          <div class="col-6 text-end">
+            <img src="asset/Online world.gif" class="w-100 ms-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir tentang -->
+
+    <!-- Awal blog -->
+    <section id="blog">
+      <div class="container-fluid bg-secondary p-5">
+        <div class="container text-center text-white">
+          <h2 class="mb-5">Blog</h2>
+          <div class="row">
+            <!-- Artikel 1 -->
+            <div class="col-6 mb-5">
+              <img src="asset/contenwebsite.gif" alt="" class="w-100" />
+            </div>
+            <div class="col-6 mb-5">
+              <h5 class="text-center mb-3">Apa itu Website?</h5>
+              <p class="fs-5" align="justify">
+                Website adalah kumpulan halaman web yang saling terkait dan
+                biasanya dapat diakses melalui internet. Halaman web ini dapat
+                berisi berbagai jenis konten, seperti teks, gambar, audio,
+                video, dan elemen interaktif lainnya. Setiap halaman web
+                memiliki alamat unik yang disebut URL (Uniform Resource
+                Locator), yang memungkinkan pengguna untuk mengaksesnya
+                menggunakan peramban web. Websites dapat digunakan untuk
+                berbagai tujuan, termasuk memberikan informasi, menjual produk
+                atau layanan, menyediakan platform untuk berbagi konten dan
+                pengalaman pengguna, serta menyediakan berbagai jenis layanan
+                online lainnya. Ada berbagai jenis website, seperti blog, situs
+                berita, toko online, forum, situs pendidikan, dan banyak lagi,
+                masing-masing dengan tujuan dan fungsinya sendiri. Umumnya,
+                pembuatan website melibatkan pengembangan halaman web
+                menggunakan bahasa pemrograman web seperti HTML (Hypertext
+                Markup Language), CSS (Cascading Style Sheets), dan JavaScript.
+                Beberapa platform atau sistem manajemen konten (Content
+                Management System/CMS) juga memungkinkan pembuatan website tanpa
+                harus memiliki pengetahuan khusus dalam pemrograman. Contoh CMS
+                populer termasuk WordPress, Joomla, dan Drupal.
+              </p>
+            </div>
+            <!-- Akhir artikel 1 -->
+
+            <!-- Artikel 2 -->
+            <div class="col-6 mb-5">
+              <h5 class="mb-3">Apa itu HTML?</h5>
+              <p class="fs-5" align="justify">
+                HTML adalah singkatan dari HyperText Markup Language. Ini
+                merupakan bahasa markup standar yang digunakan untuk membuat dan
+                merancang dokumen di World Wide Web. HTML adalah dasar dari
+                pengembangan web dan menyediakan struktur untuk halaman web
+                dengan menggunakan sistem elemen atau tag yang mendefinisikan
+                bagian-bagian berbeda dari dokumen, seperti judul, paragraf,
+                tautan, gambar, daftar, dan lainnya. HTML bukanlah bahasa
+                pemrograman; sebaliknya, ini adalah bahasa markup yang
+                mendeskripsikan struktur konten pada halaman web. Browser web
+                menggunakan HTML untuk mengartikan dan merender elemen-elemen
+                halaman web, memungkinkan pengguna untuk melihat dan
+                berinteraksi dengan konten.
+              </p>
+            </div>
+            <div class="col-6 mb-5">
+              <img src="asset/contenhtml.gif" alt="" class="w-100" />
+            </div>
+            <!-- Akhir artikel 2 -->
+
+            <!-- Artikel 3 -->
+            <div class="col-6 mb-5">
+              <img src="asset/contencss.gif" alt="" width="w-100" />
+            </div>
+            <div class="col-6 mb-5">
+              <h5 class="mb-3">Apa itu CSS?</h5>
+              <p class="fs-5" align="justify">
+                CSS adalah singkatan dari Cascading Style Sheets. Dalam bahasa
+                Indonesia, CSS diterjemahkan sebagai "Lembar Gaya yang
+                Berantai." CSS adalah suatu bahasa stylesheet yang digunakan
+                untuk mengontrol presentasi atau tata letak elemen-elemen pada
+                halaman web yang ditulis dalam HTML atau markup language
+                lainnya. Dengan menggunakan CSS, pengembang web dapat mengatur
+                tampilan visual dan tata letak halaman web dengan lebih efisien.
+                CSS memisahkan struktur dokumen HTML dari tata letak dan desain,
+                memungkinkan pengembang untuk membuat perubahan gaya tanpa harus
+                menyentuh struktur konten. Beberapa fungsi CSS mencakup
+                pengaturan warna, jenis huruf, ukuran teks, jarak antar elemen,
+                dan tata letak halaman secara umum. Stylesheet CSS dapat
+                disematkan langsung dalam halaman HTML atau didefinisikan secara
+                terpisah dalam file eksternal, yang dapat digunakan oleh
+                beberapa halaman web. Dengan menggunakan CSS, pengembang dapat
+                mencapai konsistensi tampilan antar halaman web dan memudahkan
+                pemeliharaan desain secara keseluruhan.
+              </p>
+            </div>
+            <!-- Akhir artikel 3 -->
+
+            <!-- Artikel 4 -->
+            <div class="col-6 mb-5">
+              <h5 class="text-center mb-3">Apa itu Java Script ?</h5>
+              <p class="fs-5" align="justify">
+                JavaScript adalah bahasa pemrograman yang sering digunakan untuk
+                mengembangkan aplikasi web interaktif. Dalam bahasa Indonesia,
+                JavaScript biasa disebut sebagai "Bahasa Pemrograman
+                JavaScript." JavaScript dapat dijalankan di sisi klien
+                (client-side) pada browser web, memungkinkan pengembang untuk
+                membuat halaman web yang responsif dan dinamis. Fungsi utama
+                JavaScript melibatkan pengaturan perilaku halaman web, seperti
+                merespon input pengguna, mengubah konten secara dinamis, dan
+                berinteraksi dengan elemen halaman. Selain itu, JavaScript juga
+                dapat digunakan untuk berbagai tugas pengembangan web, termasuk
+                validasi formulir, manipulasi DOM (Document Object Model), dan
+                komunikasi dengan server menggunakan teknik seperti AJAX
+                (Asynchronous JavaScript and XML). JavaScript merupakan bagian
+                integral dari teknologi web modern dan sering digunakan bersama
+                dengan HTML dan CSS. Dengan adanya JavaScript, pengembang dapat
+                membuat aplikasi web yang lebih interaktif dan responsif,
+                meningkatkan pengalaman pengguna secara signifikan.
+              </p>
+            </div>
+            <div class="col-6 mb-5">
+              <img src="asset/contenjs.gif" alt="" class="w-100" />
+            </div>
+            <!-- Akhir artikel 4 -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir blog -->
+
+    <!-- Awwal materi -->
+    <section id="materi">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <h2 class="text-center">Materi</h2>
+
+          <div class="row mt-5 justify-content-center">
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+              <div class="card">
+                <img src="asset/html.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">Pembelajaran dasar-dasar HTML</p>
+                  <a href="materi.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+              <div class="card">
+                <img src="asset/css.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Pembelajaran dasar-dasar CSS</p>
+                  <a href="materi.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+              <div class="card">
+                <img src="asset/js.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Java Script</h5>
+                  <p class="card-text">Pembelajaran dasar-dasar Java script</p>
+                  <a href="materi.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir materi -->
+
+    <!-- Awal team -->
+    <section id="team">
+      <div class="container-fluid bg-secondary py-5">
+        <div class="container">
+          <h2 class="text-center">Team</h2>
+          <div class="row justify-content-center mt-5">
+            <div class="col col-md-3 profil text-center">
+              <div class="img-box">
+                <img
+                  src="asset/leo1.jpg"
+                  alt=""
+                  class="img-responsive"
+                  width="120px"
+                />
+                <ul>
+                  <a href="https://wa.link/qo8gkn"
+                    ><li><i class="fa-brands fa-whatsapp"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-instagram"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-linkedin"></i></li
+                  ></a>
+                </ul>
+                <div>
+                  <h4>Leo Permana Putra</h4>
+                  <h5>1462100020</h5>
+                  <p>Fullstak Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-3 profil text-center">
+              <div class="img-box">
+                <img
+                  src="asset/gilang.jpg"
+                  alt=""
+                  class="img-responsive"
+                  width="120px"
+                />
+                <ul>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-whatsapp"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-instagram"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-linkedin"></i></li
+                  ></a>
+                </ul>
+                <div>
+                  <h4>Akbar Gilang Ramadhan</h4>
+                  <h5>1462100227</h5>
+                  <p>Videografer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-3 profil text-center">
+              <div class="img-box">
+                <img
+                  src="asset/dewa1.jpg"
+                  alt=""
+                  class="img-responsive"
+                  width="120px"
+                />
+                <ul>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-whatsapp"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-instagram"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li><i class="fa-brands fa-linkedin"></i></li
+                  ></a>
+                </ul>
+                <div>
+                  <h4>Dewa Rastafa Jati</h4>
+                  <h5>1462100205</h5>
+                  <p>Videografer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir team -->
+
+    <!-- Awal kontak -->
+    <section>
+      <div class="container py-5">
+        <h2 class="text-center" id="umpan">Masukan</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12">
+            <form
+              action="https://formsubmit.io/send/962f5ec5-9be6-4c2c-84a1-9cbd9ff644c4 "
+              method="POST"
+              target="_blank"
+            >
+              <!-- Nama -->
+              <div class="my-3">
+                <label for="nama" class="form-label">Nama Lengkap :</label>
+                <input
+                  id="nama"
+                  name="nama"
+                  type="text"
+                  class="form-control"
+                  placeholder="Masukkan nama lengkap anda..."
+                />
+              </div>
+              <!-- Akhir contact -->
+
+              <!-- Email -->
+              <div class="my-3">
+                <label for="email" class="form-label">Email :</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Masukkan email anda..."
+                />
+              </div>
+              <!-- Akhir email -->
+
+              <!-- Komentar -->
+              <div class="my-3">
+                <label for="komentar" class="form-label">Komentar :</label>
+                <textarea
+                  id="komentar"
+                  name="komentar"
+                  class="form-control"
+                  placeholder="Masukkan komentar anda..."
+                ></textarea>
+              </div>
+              <!-- Akhir komentar -->
+
+              <!-- Button -->
+              <div class="my-3">
+                <button class="btn btn-secondary w-100">Kirim</button>
+              </div>
+              <!-- Akhir button -->
+            </form>
+          </div>
+          <div class="col-md-6 col-12">
+            <img src="img/img6.gif" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir kontak -->
+
+    <!-- Awal footer -->
+    <footer id="kontak" class="container-fluid bg-dark text-white p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h4>Navigate</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fasilitas.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fasilitas.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h4>Contact</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <p>
+                  <i class="fa-solid fa-phone me-3"></i> 081-906-798-3259 - (
+                  Leo )
+                </p>
+              </li>
+              <li class="nav-item">
+                <p>
+                  <i class="fa-solid fa-envelope me-3"></i>
+                  leopermana92@gmail.com
+                </p>
+              </li>
+              <li class="nav-item me-5">
+                <p><i class="fa-solid fa-location-dot me-3"></i> Indonesia</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h4>Social</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link fs-5"
+                  href="https://www.instagram.com/riopermanaa_"
+                  ><i class="fa-brands fa-instagram"></i> leopermanaa
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-5"
+                  href="https://www.instagram.com/kkelvin221"
+                  ><i class="fa-brands fa-instagram me-2"></i> akbargilang
+                </a>
+              </li>
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link fs-5"
+                  href="https://www.instagram.com/leon_lee_22"
+                  ><i class="fa-brands fa-instagram"></i> _derajat
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="text-center fs-6 mt-5">
+          Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+          2023 Leo Permana Putra
+        </p>
+      </div>
+    </footer>
+    <!-- Akkhir footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
